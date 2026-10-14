@@ -1,0 +1,115 @@
+/* Background setup */
+body {
+    background-color: #b0d8d8;
+    background-image: radial-gradient(#88bebe 15%, transparent 16%);
+    background-size: 15px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #40b5ad;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Container */
+#container {
+    width: 650px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Header */
+#header {
+    background-color: #a0eeee;
+    padding: 10px 20px;
+    border: 4px solid #70d6d6;
+    margin-bottom: 15px;
+}
+
+#header h1 {
+    text-align: right;
+    margin: 0;
+    font-size: 28px;
+    font-weight: normal;
+    color: #20b2aa;
+}
+
+#subtitle {
+    text-align: right;
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #20b2aa;
+}
+
+/* General Box Styling */
+.box {
+    border: 4px solid #a0eeee;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+}
+
+/* Friends Sidebar (Floated) */
+#friends-box {
+    float: left;
+    width: 150px;
+    background-color: #20b2aa;
+    border: 4px solid #008b8b;
+    color: #ffffff;
+}
+
+#friends-box h2 {
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+#friends-box ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin: 0;
+}
+
+#friends-box a {
+    color: #a0eeee;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Entry Posts */
+.entry {
+    margin-left: 195px; /* Offset to clear the floated friends box */
+}
+
+.entry h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: normal;
+    color: #20b2aa;
+}
+
+.date {
+    border-bottom: 2px dashed #008b8b;
+    font-weight: bold;
+}
+
+.entry {
+    margin-left: 195px; /* Keeps distance from sidebar */
+    overflow: hidden;   /* Fixes floating element overflow */
+}
+
+.entry-img {
+    float: right;
+    width: 120px;       /* Resize image appropriately */
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.entry p {
+    font-size: 12px;
+    line-height: 1.4;
+    color: #d88080;
+    margin: 10px 0 0 0;
+}
